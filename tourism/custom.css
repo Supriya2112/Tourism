@@ -1,0 +1,95 @@
+#header{
+	background-color: white;
+}
+#logo{
+	width:85px ;
+	height:80px;
+	float: left;
+	margin-left:20px;
+	padding: 3px;
+}
+#navigation{
+
+	display: inline;
+	font-size: 20px;
+
+}
+a{
+	float: right;
+	display: inline;
+	margin-right: 70px;
+	margin-top: 30px;
+	padding: 5px;
+	text-decoration: none;
+}
+hr{
+	width: 1365px;
+	margin-left: -10px;
+}
+#home{
+	margin: 20px;
+	padding: 20px;
+	
+}
+p{
+	color: black;
+	font-size: 20px;
+	text-align: justify;
+	text-indent: 50px;
+
+}
+h1{
+	text-align: center;
+	font-style: bold;
+}
+
+
+#blog {
+  box-sizing: border-box;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 550px; 
+  border: 1px solid black;
+  background-color: white;
+
+/* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#contact{
+	margin: 40px;
+	padding: 20px;
+}
+input{
+	padding: 10px;
+
+
+}
+
+.col-lg-6{
+	padding: 50px;
+	margin-top: 30px;
+}
+#social{
+	text-align: center;
+}
+#contact_details{
+	color: black;
+	font-size: 35px;
+	margin-left: -20px;
+	font-weight: bold;
+}
